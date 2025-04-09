@@ -6,9 +6,6 @@ import { FaUserAlt } from "react-icons/fa";
 import { BiCommentDetail } from "react-icons/bi";
 
 export default function TestimonalsApp() {
-  //const handleClick = () => {
-  //  console.log("My Click");
-  //};
   const [testimonials, setTestimonials] = useState("");
   const [items, setItems] = useState("");
   useEffect(() => {
